@@ -38,7 +38,7 @@ const Contact = () => {
         <input
           type="hidden"
           name="_next"
-          value="https://localhost:5173/obrigado"
+          value="https://portfolio-react-brenno.vercel.app/"
         />
 
         <div>

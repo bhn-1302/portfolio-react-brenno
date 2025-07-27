@@ -22,7 +22,7 @@ Este é meu portfólio pessoal desenvolvido com **React** e **Vite**, com o obje
 
 ## 🔗 Acesse o portfólio
 
-[**Clique aqui para ver a demonstração**](https://SEU-LINK-AQUI)
+[**Clique aqui para ver a demonstração**](https://portfolio-react-brenno.vercel.app/)
 
 ---
 

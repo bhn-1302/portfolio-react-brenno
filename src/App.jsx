@@ -18,7 +18,7 @@ box-sizing: border-box;
 
   body {
     font-family: 'Roboto', sans-serif;
-    background-image: url('public/5302920.jpg');
+    background-image: url('/5302920.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
