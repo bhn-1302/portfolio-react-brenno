@@ -1,0 +1,106 @@
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-section .gradient-text {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #ff0080, #7928ca, #2afadf, #ff0080);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 4s ease-in-out infinite;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0% 50%;
+        opacity: 0.8;
+    }
+
+    50%{
+        background-position: 100% 50%;
+        opacity: 0.4;
+    }
+
+    100% {
+        background-position: 0% 50%;
+        opacity: 1;
+    }
+}
+
+.contact-message {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #e0e0e0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.campo {
+    border-radius: 5px;
+    border: none;
+    width: 330px;
+    height: 35px;
+    padding: 10px;
+    background-color: #cccccc;
+    margin: 10px 0;
+}
+
+.campo::placeholder, .campo-mensagem::placeholder {
+    font-weight: 600;
+    color: #000;
+}
+
+.campo-mensagem {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #cccccc;
+    width: 330px;
+    height: 230px;
+}
+
+.btn-submit {
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    height: 35px;
+    color: #000;
+    background-color: #cccccc;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #e0e0e0;
+}
+
+.contact-section .btn-back-to-contents {
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #ffffff0d;
+    transition: transform 0.3s ease;
+}
+
+.contact-section .btn-back-to-contents:hover{
+    background:  linear-gradient(130deg, #00BFFF, #FF5E00);
+    color: #ffffff;
+    transform: scale(1.3);
+}

@@ -1,0 +1,115 @@
+.content-options-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 50px 0;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.options {
+    background-color: #ffffff0d;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 25px;
+    border-width: 5px;
+    border-style: groove;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+
+.content-list li {
+    gap: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.content-list .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-list .content button {
+    border: none;
+    cursor: pointer;
+    background:  linear-gradient(130deg, #00BFFF, #FF5E00);
+    color: #ffffff;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.author-description {
+    background-color: #ffffff0d;
+    max-width: 30%;
+    padding: 15px;
+    border-width: 7px;
+    border-style: groove;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+
+.author-description p {
+    letter-spacing: 2px;
+    font-weight: 400;
+    cursor: default;
+    font-size: 18px;
+}
+
+.profile-photo img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #00BFFF;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.btn-back-to-start {
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #ffffff0d;
+    transition: transform 0.3s ease;
+}
+
+.btn-back-to-start:hover {
+    background: linear-gradient(130deg, #00BFFF, #FF5E00);
+    color: #ffffff;
+    transform: scale(1.3);
+}
+
+@media (max-width: 768px) {
+    .options {
+        max-width: 90%;
+    }
+
+    .content-lis, h2 {
+        text-align: center;
+    }
+
+    .author-description {
+        max-width: 90%;
+    }
+
+    .profile-photo img  {
+        height: 200px;
+        width: 200px;
+    }
+
+    .btn-back-to-start {
+        margin-top: 20px;
+        margin-right: 50px;
+    }
+}

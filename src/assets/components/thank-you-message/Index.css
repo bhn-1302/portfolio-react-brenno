@@ -1,0 +1,20 @@
+.obrigado {
+    height: 100vh;
+    padding: 80px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background: linear-gradient(130deg, #1a1a1a, #333);
+    color: #fff;
+}
+
+.obrigado h2 {
+    font-size: 3rem;
+    color: #00BFFF;
+}
+
+.obrigado p {
+    font-size: 1rem;
+}
